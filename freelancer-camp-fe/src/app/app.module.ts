@@ -4,6 +4,7 @@ import {AppComponent} from './app.component';
 
 import  {AppRoutingModule} from "./app-routing.module";
 import {HomepageComponent} from "./homepage/homepage.component";
+import {DocumentsComponent} from "./documents/documents.component";
 
 @NgModule({
   imports: [
@@ -12,7 +13,8 @@ import {HomepageComponent} from "./homepage/homepage.component";
   ],
   declarations: [
     AppComponent,
-    HomepageComponent
+    HomepageComponent,
+    DocumentsComponent
   ],
   bootstrap: [AppComponent],
   providers: []

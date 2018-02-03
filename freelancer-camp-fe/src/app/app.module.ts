@@ -1,6 +1,6 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { HomepageComponent} from "./homepage.component";
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
+import {HomepageComponent} from "./homepage/homepage.component";
 
 
 import { AppComponent } from './app.component';
@@ -8,7 +8,8 @@ import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    // AppComponent
+    HomepageComponent
   ],
   imports: [
     BrowserModule
@@ -17,4 +18,5 @@ import { AppComponent } from './app.component';
   // bootstrap: [AppComponent]
   bootstrap: [HomepageComponent]
 })
-export class AppModule { }
+export class AppModule {
+}

@@ -2,22 +2,30 @@ import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
 import {AppComponent} from './app.component';
 
-import  {AppRoutingModule} from "./app-routing.module";
+import {AppRoutingModule} from "./app-routing.module";
 import {HomepageComponent} from "./homepage/homepage.component";
 import {DocumentsComponent} from "./documents/documents.component";
+import {ProposalListComponent} from "./proposal/proposal-list.component";
+import {ProposalNewComponent} from "./proposal/proposal-new.component";
+import {ProposalShowComponent} from "./proposal/proposal-show.component";
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
-  declarations: [
-    AppComponent,
-    HomepageComponent,
-    DocumentsComponent
-  ],
-  bootstrap: [AppComponent],
-  providers: []
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        FormsModule
+    ],
+    declarations: [
+        AppComponent,
+        HomepageComponent,
+        DocumentsComponent,
+        ProposalListComponent,
+        ProposalNewComponent,
+        ProposalShowComponent
+    ],
+    bootstrap: [AppComponent],
+    providers: []
 })
 
 export class AppModule {

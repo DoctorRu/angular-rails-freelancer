@@ -1,7 +1,7 @@
 import {Component, OnInit} from "@angular/core";
 import {ActivatedRoute, Params} from "@angular/router";
 
-import {Proposal} from "./proposal";
+// import {Proposal} from "./proposal";
 
 
 @Component({

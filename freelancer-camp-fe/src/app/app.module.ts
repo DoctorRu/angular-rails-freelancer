@@ -16,8 +16,7 @@ import {ProposalShowComponent} from "./proposal/proposal-show.component";
         BrowserModule,
         AppRoutingModule,
         FormsModule,
-        NgbModule.forRoot(),
-        
+        NgbModule.forRoot()
     ],
     declarations: [
         AppComponent,

@@ -6,9 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b902218-7755-4e31-a5ef-f59318b0ff93" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/freelancer-camp-fe/src/app/proposal/proposal-new.component.html" afterPath="$PROJECT_DIR$/freelancer-camp-fe/src/app/proposal/proposal-new.component.html" />
-      <change beforePath="$PROJECT_DIR$/freelancer-camp-fe/src/app/proposal/proposal-new.component.ts" afterPath="$PROJECT_DIR$/freelancer-camp-fe/src/app/proposal/proposal-new.component.ts" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,8 +22,8 @@
           <file leaf-file-name="proposal-new.component.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/freelancer-camp-fe/src/app/proposal/proposal-new.component.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="95" column="30" lean-forward="false" selection-start-line="95" selection-start-column="30" selection-end-line="95" selection-end-column="30" />
+                <state relative-caret-position="221">
+                  <caret line="77" column="61" lean-forward="false" selection-start-line="77" selection-start-column="61" selection-end-line="77" selection-end-column="61" />
                   <folding />
                 </state>
               </provider>
@@ -139,8 +137,8 @@
     <handled-path value="$PROJECT_DIR$/freelancer-camp-fe/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="392" />
-    <option name="y" value="61" />
+    <option name="x" value="1463" />
+    <option name="y" value="71" />
     <option name="width" value="1042" />
     <option name="height" value="944" />
   </component>
@@ -264,12 +262,12 @@
       <workItem from="1517789978932" duration="8601000" />
       <workItem from="1517926430485" duration="605000" />
       <workItem from="1520058916942" duration="3857000" />
-      <workItem from="1520121385577" duration="2667000" />
+      <workItem from="1520121385577" duration="3347000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54329000" />
+    <option name="totallyTimeSpent" value="55009000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -281,8 +279,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="392" y="61" width="1042" height="944" extended-state="0" />
-    <editor active="true" />
+    <frame x="1463" y="71" width="1042" height="944" extended-state="0" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35272726" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31991953" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -293,7 +290,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291592" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24958123" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42785445" sideWeight="0.4984089" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42785445" sideWeight="0.4984089" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -637,8 +634,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/freelancer-camp-fe/src/app/proposal/proposal-new.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="95" column="30" lean-forward="false" selection-start-line="95" selection-start-column="30" selection-end-line="95" selection-end-column="30" />
+        <state relative-caret-position="221">
+          <caret line="77" column="61" lean-forward="false" selection-start-line="77" selection-start-column="61" selection-end-line="77" selection-end-column="61" />
           <folding />
         </state>
       </provider>

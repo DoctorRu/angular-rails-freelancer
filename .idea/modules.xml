@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/angular-rails.iml" filepath="$PROJECT_DIR$/.idea/angular-rails.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/freelance_camp_documents.iml" filepath="$PROJECT_DIR$/.idea/modules/freelance_camp_documents.iml" />
     </modules>
   </component>
 </project>

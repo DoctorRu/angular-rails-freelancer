@@ -9,8 +9,3 @@ export class Proposal {
                 public client_email?: string) {
     }
 }
-
-// eg:
-// 15, 'Abc company', 'http://matrix.com','Ruby on rails', 150, 120, 15, 'hi@hallo.com'
-
-

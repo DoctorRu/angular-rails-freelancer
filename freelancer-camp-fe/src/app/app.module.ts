@@ -36,7 +36,8 @@ import {ProposalShowComponent} from "./proposal/proposal-show.component";
         AppComponent
     ],
     providers: [
-        DocumentService
+        DocumentService,
+        ProposalService
     ]
 })
 

@@ -7,6 +7,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {HttpModule} from "@angular/http";
 
 import {DocumentService} from "./documents/document.service";
+import {ProposalService} from "./proposal/proposal.service";
 
 import {HomepageComponent} from "./homepage/homepage.component";
 import {DocumentsComponent} from "./documents/documents.component";

@@ -7,18 +7,21 @@ Angular 2 + Rails 5
 
 Freelancer
 
-    ng serve -p 4200
+    $ cd freelancer-camp-fe/
+    $ ng serve -p 4200
 
  Documents<br>
  http://localhost:3001/freelance_documents
     
-    rails s -p 3001
+    $ cd freelance_documents/
+    $ rails s -p 3001
     
 
 Proposal<br>
 http://localhost:3002/proposals
 
-    rails s -p 3002
+    cd 
+    $rails s -p 3002
 
 
 Notas

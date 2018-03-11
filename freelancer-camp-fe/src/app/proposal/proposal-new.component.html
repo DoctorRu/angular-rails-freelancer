@@ -5,7 +5,7 @@
             <h1>Create a Proposal</h1>
             
             <div>
-                <form #proposalForm="ngForm">
+                <form (ngSubmit)="createProposal(proposal)" #proposalForm="ngForm">
                     <div class="form-group">
                         <label for="customer">Customer Name</label>
                         <input type="text"
@@ -117,7 +117,19 @@
                                [(ngModel)]="proposal.client_email"
                         >
                     </div>
-                
+                    
+                    <button type="submit" class="btn btn-outline-primary btn-lg"
+                            [disabled]="!proposalForm.form.valid"
+                            [hidden]="submitted">
+                        Generate proposal
+                    </button>
+                    
+                    <div class="alert alert-success" role="alert"
+                    [hidden]="!submitted">
+                        
+                        Your proposal has been generated
+                        <a class="alert-link" routerLink="/proposals">View all proposals</a>
+                    </div>
                 </form>
             </div>
         
@@ -152,7 +164,8 @@
                     proposal.estimated_hours }} hours in development time to complete. The project should take {{
                     proposal.weeks_to_complete }} weeks to complete and with my hourly rate of {{ proposal.hourly_rate
                     }}/hour,
-                    the estimated total will be {{ proposal.hourly_rate * proposal.estimated_hours | currency:'USD':true:'.0'}}.</p>
+                    the estimated total will be {{ proposal.hourly_rate * proposal.estimated_hours |
+                    currency:'USD':true:'.0'}}.</p>
                 
                 
                 <p>The next step from here is to set up a meeting to finalize the project and sign contracts.</p>
